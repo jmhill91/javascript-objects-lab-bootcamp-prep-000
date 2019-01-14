@@ -5,6 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function destuctivelyUpdateObjectWithKeyAndValue(object, key, value){
-  object[key]
+ delete object.key
   return object
 }
